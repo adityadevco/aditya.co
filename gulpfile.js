@@ -36,7 +36,7 @@ gulp.task('css', function () {
         autoprefixer({browsers: ['last 2 versions']}),
         cssnano()
     ];
-
+    console.log("my name is aditya")
     return gulp.src('assets/css/*.css')
         .on('error', swallowError)
         .pipe(sourcemaps.init())
